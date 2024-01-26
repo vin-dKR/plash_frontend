@@ -31,7 +31,7 @@ function Main() {
           <React.Fragment key={item._id}>
             {item.fileUrl && (
               <img
-                src={`http://localhost:5001/${item.fileUrl}`}
+                src={`https://plash-frontendatvinod.onrender.com/${item.fileUrl}`}
                 alt="Uploaded"
                 onError={(e) => {
                   console.error("Error loading image:", e.target.src);

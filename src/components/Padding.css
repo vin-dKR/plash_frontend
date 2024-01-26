@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@700&display=swap');
+
+.padding{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.padding__child{
+    justify-self: center;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: #eee;
+    width: 90%;
+    border-radius: 15px;
+}
+.left__side{
+    width: 750px;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.brand__info > h2{
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+.brand__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+}
+
+
+.right__side{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sort__type{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    padding: 13px;
+    background-color: #fff;
+    border-radius: 14px;
+    font-family: 'Manjari', sans-serif;
+}
+.sort__type > h3 {
+    margin: 0;
+    font-family: 'Manjari', sans-serif;
+}
+.sort__btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    justify-self: center;
+}
+.span__bg {
+    margin: 3px;
+    background: #eee;
+    border-radius: 5px;
+    color: #000;
+    padding: 3px;
+}

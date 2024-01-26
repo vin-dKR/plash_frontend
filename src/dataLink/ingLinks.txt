@@ -1,0 +1,92 @@
+const imgData1 = [
+    {
+      img: 'https://i.ibb.co/jTNKMQ0/20230705-193803.jpg',
+      title: 'Breakfast',
+      catagory:{
+        a: 'sky',
+
+      }
+    },
+    {
+      img: 'https://i.ibb.co/cc97b9z/20230705-194559.jpg',
+      title: 'Burger',
+    },
+    {
+      img: 'https://i.ibb.co/ssMWnp2/1685367321608.jpg',
+      title: 'Burger',
+    },
+    {
+      img: 'https://i.ibb.co/3FfRqjb/1686750459808.jpg',
+      title: 'Temple',
+    },
+    {
+      img: 'https://i.ibb.co/m00zn2T/1696815280468-1.jpg',
+      title: 'Sunrise-fade',
+    },
+    {
+      img: 'https://i.ibb.co/ScH3jTB/1700216135595.jpg',
+      title: 'Sky-Road',
+    },    
+  ];
+
+  const imgData2 = [
+    {
+      img: 'https://i.ibb.co/Hpz6YwD/1685366110435.jpg',
+      title: 'Camera',
+    },
+    {
+      img: 'https://i.ibb.co/bLF5TLv/1686750459804.jpg',
+      title: 'Coffee',
+    }
+    ,
+    {
+      img: 'https://i.ibb.co/Qf2kjdf/1686750459799.jpg',
+      title: 'Coffee',
+    },
+    {
+      img: 'https://i.ibb.co/sHW9VS2/1687862349326.jpg',
+      title: 'Canal',
+    },
+    {
+      img: 'https://i.ibb.co/GFYPH9G/1697432683731.jpg',
+      title: 'Morning Nature - 1',
+    },
+  ]
+
+  const imgData3 = [
+    {
+      img: 'https://i.ibb.co/f8DNmLN/1687862349334.jpg',
+      title: 'Coffee',
+    }
+    ,
+    {
+      img: 'https://i.ibb.co/ZNTvRsd/1695989399042-1.jpg',
+      title: 'Coffee',
+    },
+    {
+      img: 'https://i.ibb.co/dPCmFG6/1696139419273.jpg',
+      title: 'Coffee',
+    },
+    {
+      img: 'https://i.ibb.co/Dz9HSMD/1696139419280.jpg',
+      title: 'Children',
+    },
+    {
+      img: 'https://i.ibb.co/87nh6B1/1697432683723.jpg',
+      title: 'Morning Nature - 2',
+    },
+    {
+      img: 'https://i.ibb.co/YtT4px1/1700216135607.jpg',
+      title: 'Sky-paddy',
+    },
+    {
+      img: 'images/und/1695989399017 (1).jpg',
+      title: 'Sky-paddy',
+    },
+    {
+      img: 'images/und/1696138684261.jpg',
+      title: 'Sky-paddy',
+    },
+  ]
+
+  module.exports = {imgData1, imgData2, imgData3};

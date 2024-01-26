@@ -1,0 +1,25 @@
+.__main{
+    width: 100%;
+    box-sizing: border-box;
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    justify-content: center;
+    /* padding: 23px; */
+    width: 100%;
+}
+.my-masonry-grid_column > img{
+    width: 410px;
+    margin-bottom: 40px;
+}
+.my-masonry-grid_column {
+    background-clip: padding-box;
+    width: 410px !important;
+    padding: 20px;
+  }

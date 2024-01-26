@@ -24,7 +24,7 @@ const InputForm = () => {
       formData.append('text', inputTitle)
       formData.append('category', inputCat)
 
-      await axios.post("http://localhost:5001/api/v1", formData, {
+      await axios.post("https://plash-frontendatvinod.onrender.com/api/v1", formData, {
         headers: {'Content-Type': 'multipart/form-data'}
       })
       event.preventDefault()

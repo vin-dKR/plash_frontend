@@ -21,12 +21,12 @@
 .post-btn > a {
     text-decoration: none;
 }
-.search{
+/* .search{
     display: flex;
     left: 300px;
     position: relative;
     justify-content: center;
-}
+} */
 .input__box{
     height: 30px;
     border: 0 solid #000;

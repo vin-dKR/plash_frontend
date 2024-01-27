@@ -28,6 +28,7 @@ const InputForm = () => {
         headers: {'Content-Type': 'multipart/form-data'}
       })
       event.preventDefault()
+      console.log("uploaded")
     } catch (error) {
       console.log("error from contribute", error)
     }

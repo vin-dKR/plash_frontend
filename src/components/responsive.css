@@ -49,4 +49,10 @@
         grid-template-columns: minmax(0,1fr);
         padding-bottom: 23px;
     }
+    .__container{
+        width: 300px !important;
+    }
+    .cont{
+        width: 300px !important;
+    }
   }

@@ -12,6 +12,10 @@
         width: 80px !important;
         justify-content: center;
     }
+    .padding{
+       display: flex;
+      flex-direction: column; 
+    }
     .padding__child {
       display: flex;
       flex-direction: column;

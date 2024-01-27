@@ -31,8 +31,9 @@ function Padding() {
             </div>
           </div>
         </div>
+                  <Main />
       </div>
-      <Main />
+      
     </>
   );
 }

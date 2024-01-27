@@ -36,7 +36,7 @@
     .my-masonry-grid{
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 300px !important;
     }
     .__main{
         width: 100% !important;

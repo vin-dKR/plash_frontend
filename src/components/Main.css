@@ -11,8 +11,7 @@
     display: -ms-flexbox; /* Not needed if autoprefixing */
     display: flex;
     justify-content: center;
-    /* padding: 23px; */
-    width: 100%;
+    padding: 23px;
 }
 .my-masonry-grid_column > img{
     width: 410px;
@@ -20,6 +19,6 @@
 }
 .my-masonry-grid_column {
     background-clip: padding-box;
-    width: 410px !important;
+    width: 410px;
     padding: 20px;
-  }
+}

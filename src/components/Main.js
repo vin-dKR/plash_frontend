@@ -10,7 +10,7 @@ function Main() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://plash-frontendatvinod.onrender.com/api/v1");
+        const response = await axios.get("https://plash-backendatvinod.onrender.com/api/v1");
         setData(response.data);
       } catch (error) {
         console.error("Error fetching data in main photo phile:", error);
@@ -31,8 +31,8 @@ function Main() {
           <React.Fragment key={item._id}>
             {item.fileUrl && (
               <img
-                src={`https://plash-frontendatvinod.onrender.com/${item.fileUrl}`}
-                alt="Uploaded"
+                src={`https://plash-backendatvinod.onrender.com/${item.fileUrl}`}
+                alt="pic error"
                 onError={(e) => {
                   console.error("Error loading image:", e.target.src);
                 }}

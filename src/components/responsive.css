@@ -53,4 +53,9 @@
         grid-template-columns: minmax(0,1fr);
         padding-bottom: 23px;
     }
+    .my-masonry-grid_column {
+    background-clip: padding-box;
+    padding: 8px;
+    width: 327px!important;
+}
   }

@@ -257,7 +257,7 @@
     .padding__child {
       display: flex;
       flex-direction: column;
-      width: 342px !important;
+      width: 380px !important;
     }
     .brand__info{
         width: 100% !important;
@@ -362,7 +362,7 @@
     .padding__child {
       display: flex;
       flex-direction: column;
-      width: 296px !important;
+      width: 310px !important;
     }
     .brand__info{
         width: 100% !important;
@@ -392,6 +392,58 @@
     }
     .my-masonry-grid_column > img {
         width: 345px !important;  
+    }
+    
+  }
+
+  
+  @media only screen and (max-width: 370px) {
+    .App{
+        width: 100%;
+    }
+    .navbar{
+        width: 100% !important;
+    }
+    .search{
+        width: 100px !important;
+    }
+    .search > input{
+        width: 80px !important;
+        justify-content: center;
+    }
+    .padding__child {
+      display: flex;
+      flex-direction: column;
+      width: 220px !important;
+    }
+    .brand__info{
+        width: 100% !important;
+    }
+    .left__side {
+        display: flex;
+        width: 100% !important;
+        height: fit-content !important;
+        font-size: 18px !important;
+        
+    }
+    .left__side > p{
+        font-size: 13px !important;
+    }
+    .right__side{
+        width: 100% !important;
+    }
+    .my-masonry-grid {
+        display: flex;
+        flex-direction: column;
+        background-clip: padding-box;
+    }
+    .my-masonry-grid_column {
+        width: 327px !important;
+        margin-bottom: 40px;
+        padding: 12px !important;
+    }
+    .my-masonry-grid_column > img {
+        width: 267px !important;  
     }
     
   }

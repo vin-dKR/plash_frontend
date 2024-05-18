@@ -1,6 +1,5 @@
 import "./Padding.css";
 import "./responsive.css";
-import Main from "./Main";
 
 function Padding() {
   return (
@@ -31,8 +30,9 @@ function Padding() {
             </div>
           </div>
         </div>
+                  
       </div>
-      <Main />
+      
     </>
   );
 }

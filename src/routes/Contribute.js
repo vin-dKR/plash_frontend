@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import "./Contribute.css"
-import "../components/responsive.css";
 
 const InputForm = () => {
   const [file, setFile] = useState(null);
@@ -25,11 +24,11 @@ const InputForm = () => {
       formData.append('text', inputTitle)
       formData.append('category', inputCat)
 
-      await axios.post("https://plash-frontendatvinod.onrender.com/api/v1", formData, {
+      await axios.post("https://plash-backendatvinod.onrender.com/api/v1", formData, {
         headers: {'Content-Type': 'multipart/form-data'}
       })
-      
       event.preventDefault()
+      console.log("uploaded")
     } catch (error) {
       console.log("error from contribute", error)
     }
@@ -37,7 +36,7 @@ const InputForm = () => {
 
   return (
     <>
-    <div className="__container">
+    <div className="container">
       <form className='form'>
         <input className='file' type="file" onChange={ handleFileChange } />
         <input className='title_name' placeholder='give title' type="text" onChange={ handleInputChange } />

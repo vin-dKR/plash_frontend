@@ -13,20 +13,17 @@
     position: sticky;
 }
 .navbar > img{
-    /* inverting the svg color black to white or vice versa */
-    /* filter: invert(1); */
     height: 32px;
     padding-left: 35px;
 }
-.post-btn > a {
+.post-btn-a {
     text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    margin-top: 4px;
+    font-family: 'Manjari', sans-serif;
 }
-/* .search{
-    display: flex;
-    left: 300px;
-    position: relative;
-    justify-content: center;
-} */
 .input__box{
     height: 30px;
     border: 0 solid #000;
@@ -40,11 +37,14 @@
     background-color: #fff;
     position: relative;
     right: 35px;
-    height: 30px;
+    height: 33px;
     border: 0 solid #000;
     border-radius: 5px;
     color: #000;
     width: 100px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contribute{
     text-decoration: none; 
